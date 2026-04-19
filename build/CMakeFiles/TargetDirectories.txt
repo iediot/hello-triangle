@@ -1,0 +1,3 @@
+/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles/triangle.dir
+/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles/edit_cache.dir
+/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles/rebuild_cache.dir
