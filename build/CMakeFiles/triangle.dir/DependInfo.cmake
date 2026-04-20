@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/edi/CLionProjects/HelloTriangle/glad.c" "CMakeFiles/triangle.dir/glad.c.o" "gcc" "CMakeFiles/triangle.dir/glad.c.o.d"
-  "/home/edi/CLionProjects/HelloTriangle/main.cpp" "CMakeFiles/triangle.dir/main.cpp.o" "gcc" "CMakeFiles/triangle.dir/main.cpp.o.d"
-  "" "triangle" "gcc" "CMakeFiles/triangle.dir/link.d"
+  "/Users/iediot/CLionProjects/hello-triangle/glad.c" "CMakeFiles/triangle.dir/glad.c.o" "gcc" "CMakeFiles/triangle.dir/glad.c.o.d"
+  "/Users/iediot/CLionProjects/hello-triangle/main.cpp" "CMakeFiles/triangle.dir/main.cpp.o" "gcc" "CMakeFiles/triangle.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/sbin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/sbin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edi/CLionProjects/HelloTriangle
+CMAKE_SOURCE_DIR = /Users/iediot/CLionProjects/hello-triangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edi/CLionProjects/HelloTriangle/build
+CMAKE_BINARY_DIR = /Users/iediot/CLionProjects/hello-triangle/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/triangle.dir/clean
 CMakeFiles/triangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle.dir/build.make CMakeFiles/triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle.dir/build.make CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles --progress-num=1,2,3 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles --progress-num=1,2,3 "Built target triangle"
 .PHONY : CMakeFiles/triangle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/triangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edi/CLionProjects/HelloTriangle/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/triangle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edi/CLionProjects/HelloTriangle/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles 0
 .PHONY : CMakeFiles/triangle.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ triangle: CMakeFiles/triangle.dir/rule
 # codegen rule for target.
 CMakeFiles/triangle.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangle.dir/build.make CMakeFiles/triangle.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target triangle"
 .PHONY : CMakeFiles/triangle.dir/codegen
 
 # clean rule for target.

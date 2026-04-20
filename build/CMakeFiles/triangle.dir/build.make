@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/sbin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/sbin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edi/CLionProjects/HelloTriangle
+CMAKE_SOURCE_DIR = /Users/iediot/CLionProjects/hello-triangle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edi/CLionProjects/HelloTriangle/build
+CMAKE_BINARY_DIR = /Users/iediot/CLionProjects/hello-triangle/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/triangle.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/triangle.dir/codegen:
 .PHONY : CMakeFiles/triangle.dir/codegen
 
 CMakeFiles/triangle.dir/main.cpp.o: CMakeFiles/triangle.dir/flags.make
-CMakeFiles/triangle.dir/main.cpp.o: /home/edi/CLionProjects/HelloTriangle/main.cpp
+CMakeFiles/triangle.dir/main.cpp.o: /Users/iediot/CLionProjects/hello-triangle/main.cpp
 CMakeFiles/triangle.dir/main.cpp.o: CMakeFiles/triangle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangle.dir/main.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/triangle.dir/main.cpp.o -MF CMakeFiles/triangle.dir/main.cpp.o.d -o CMakeFiles/triangle.dir/main.cpp.o -c /home/edi/CLionProjects/HelloTriangle/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangle.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/triangle.dir/main.cpp.o -MF CMakeFiles/triangle.dir/main.cpp.o.d -o CMakeFiles/triangle.dir/main.cpp.o -c /Users/iediot/CLionProjects/hello-triangle/main.cpp
 
 CMakeFiles/triangle.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/triangle.dir/main.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edi/CLionProjects/HelloTriangle/main.cpp > CMakeFiles/triangle.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iediot/CLionProjects/hello-triangle/main.cpp > CMakeFiles/triangle.dir/main.cpp.i
 
 CMakeFiles/triangle.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/triangle.dir/main.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edi/CLionProjects/HelloTriangle/main.cpp -o CMakeFiles/triangle.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iediot/CLionProjects/hello-triangle/main.cpp -o CMakeFiles/triangle.dir/main.cpp.s
 
 CMakeFiles/triangle.dir/glad.c.o: CMakeFiles/triangle.dir/flags.make
-CMakeFiles/triangle.dir/glad.c.o: /home/edi/CLionProjects/HelloTriangle/glad.c
+CMakeFiles/triangle.dir/glad.c.o: /Users/iediot/CLionProjects/hello-triangle/glad.c
 CMakeFiles/triangle.dir/glad.c.o: CMakeFiles/triangle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/triangle.dir/glad.c.o"
-	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/triangle.dir/glad.c.o -MF CMakeFiles/triangle.dir/glad.c.o.d -o CMakeFiles/triangle.dir/glad.c.o -c /home/edi/CLionProjects/HelloTriangle/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/triangle.dir/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/triangle.dir/glad.c.o -MF CMakeFiles/triangle.dir/glad.c.o.d -o CMakeFiles/triangle.dir/glad.c.o -c /Users/iediot/CLionProjects/hello-triangle/glad.c
 
 CMakeFiles/triangle.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/triangle.dir/glad.c.i"
-	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/edi/CLionProjects/HelloTriangle/glad.c > CMakeFiles/triangle.dir/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/iediot/CLionProjects/hello-triangle/glad.c > CMakeFiles/triangle.dir/glad.c.i
 
 CMakeFiles/triangle.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/triangle.dir/glad.c.s"
-	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/edi/CLionProjects/HelloTriangle/glad.c -o CMakeFiles/triangle.dir/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/iediot/CLionProjects/hello-triangle/glad.c -o CMakeFiles/triangle.dir/glad.c.s
 
 # Object files for target triangle
 triangle_OBJECTS = \
@@ -111,11 +111,10 @@ triangle_EXTERNAL_OBJECTS =
 triangle: CMakeFiles/triangle.dir/main.cpp.o
 triangle: CMakeFiles/triangle.dir/glad.c.o
 triangle: CMakeFiles/triangle.dir/build.make
-triangle: CMakeFiles/triangle.dir/compiler_depend.ts
-triangle: /usr/lib/libglfw.so.3.4
-triangle: /usr/lib/libGL.so
+triangle: /opt/homebrew/lib/libglfw.3.4.dylib
+triangle: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 triangle: CMakeFiles/triangle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/edi/CLionProjects/HelloTriangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable triangle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/triangle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +126,6 @@ CMakeFiles/triangle.dir/clean:
 .PHONY : CMakeFiles/triangle.dir/clean
 
 CMakeFiles/triangle.dir/depend:
-	cd /home/edi/CLionProjects/HelloTriangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edi/CLionProjects/HelloTriangle /home/edi/CLionProjects/HelloTriangle /home/edi/CLionProjects/HelloTriangle/build /home/edi/CLionProjects/HelloTriangle/build /home/edi/CLionProjects/HelloTriangle/build/CMakeFiles/triangle.dir/DependInfo.cmake "--color=$(COLOR)" triangle
+	cd /Users/iediot/CLionProjects/hello-triangle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/iediot/CLionProjects/hello-triangle /Users/iediot/CLionProjects/hello-triangle /Users/iediot/CLionProjects/hello-triangle/build /Users/iediot/CLionProjects/hello-triangle/build /Users/iediot/CLionProjects/hello-triangle/build/CMakeFiles/triangle.dir/DependInfo.cmake "--color=$(COLOR)" triangle
 .PHONY : CMakeFiles/triangle.dir/depend
 

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/edi/CLionProjects/HelloTriangle/build/cmake_install.cmake"
+		"/Users/iediot/CLionProjects/hello-triangle/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
